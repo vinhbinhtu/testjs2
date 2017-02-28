@@ -1,5 +1,5 @@
-var express= require('express');
-var app= express();
+/var express= require('express');
+//var app= express();
 //var bodyParse=require('body-parser');
 
 var	list=[{
@@ -13,22 +13,22 @@ var	list=[{
 }];
 //app.use(express.static(__dirname+"/public"));
 //app.use(bodyParse.json());
-app.get('/',function(req,res){
+//app.get('/',function(req,res){
 	console.log("I received a GET request");
-	res.send("I received a GET request");	
+	//res.send("I received a GET request");	
 
 
 //res.json(list);
-});
+//});
 
  //var app.listen(process.env.PORT || 3000);
 //console.log("server running on port 3000");
-var server = app.listen(process.env.PORT || 3000, function () {
-   var host = server.address().address
-   var port = server.address().port
+//var server = app.listen(process.env.PORT || 3000, function () {
+  // var host = server.address().address
+ //  var port = server.address().port
    
-   console.log("Example app listening at http://%s:%s", host, port)
-})
+  // console.log("Example app listening at http://%s:%s", host, port)
+//})
 
 
 
