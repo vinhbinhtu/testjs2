@@ -15,7 +15,7 @@ var	list=[{
 //app.use(bodyParse.json());
 app.get('/',function(req,res){
 	console.log("I received a GET request");
-
+	res.send("I received a GET request");	
 
 
 //res.json(list);
